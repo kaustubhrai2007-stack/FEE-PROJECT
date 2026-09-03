@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register for a Club — Chitkara Campus Connect</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== SIMPLE TOP BAR ===== -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">CC</span>
+        <span class="logo-text-group">
+          <span class="logo-title">Chitkara</span>
+          <span class="logo-subtitle">CAMPUS CONNECT</span>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== AUTH / REGISTRATION SECTION ===== -->
+  <main class="auth-page">
+    <div class="auth-card auth-card-wide">
+
+      <span class="eyebrow" style="text-align:left;">Join a club</span>
+      <h1 class="auth-title">Create your account</h1>
+      <p class="auth-subtitle">Pick a club and tell us a bit about yourself. All fields marked * are required.</p>
+
+      <!--
+        No backend is connected, so nothing here is actually saved —
+        but every control is real and working: required-field checks,
+        email/phone format checks, a genuine working dropdown list of
+        clubs, and a working agreement checkbox. All native HTML5,
+        zero JavaScript.
+      -->
+      <form class="auth-form" action="#" method="get">
+
+        <div class="form-grid-2">
+          <div>
+            <label class="field-label" for="fullname">Full Name *</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+          </div>
+          <div>
+            <label class="field-label" for="roll">University Roll No. *</label>
+            <input type="text" id="roll" name="roll" placeholder="e.g. 2410XXXXXX" required>
+          </div>
+        </div>
+
+        <div class="form-grid-2">
+          <div>
+            <label class="field-label" for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="you@chitkara.edu.in" required>
+          </div>
+          <div>
+            <label class="field-label" for="phone">Phone Number *</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="10-digit mobile number"
+              pattern="[0-9]{10}"
+              title="Enter a 10-digit phone number"
+              required>
+          </div>
+        </div>
+
+        <div class="form-grid-2">
+          <div>
+            <label class="field-label" for="club">Select Club *</label>
+            <select id="club" name="club" required>
+              <option value="" selected disabled>Choose a club</option>
+              <option>Chess Paradox Club</option>
+              <option>Film Making Club</option>
+              <option>MUN Club</option>
+              <option>DJ Club</option>
+              <option>Karate Club</option>
+              <option>Chitkara Research Club</option>
+              <option>Color Canvas Club</option>
+              <option>F1 Club</option>
+              <option>Finprenuer</option>
+              <option>Animal Welfare Club</option>
+              <option>Yoga Club</option>
+              <option>Running Club</option>
+              <option>Reading Club</option>
+              <option>Robotics-adjacent: Inner Engineering Club</option>
+              <option>Other / Not sure yet</option>
+            </select>
+          </div>
+          <div>
+            <label class="field-label" for="year">Year of Study *</label>
+            <select id="year" name="year" required>
+              <option value="" selected disabled>Choose your year</option>
+              <option>1st Year</option>
+              <option>2nd Year</option>
+              <option>3rd Year</option>
+              <option>4th Year</option>
+            </select>
+          </div>
+        </div>
+
+        <label class="field-label" for="reason">Why do you want to join?</label>
+        <textarea
+          id="reason"
+          name="reason"
+          rows="3"
+          placeholder="A couple of lines about why this club interests you (optional)"></textarea>
+
+        <label class="checkbox-field checkbox-field-terms">
+          <input type="checkbox" name="terms" required>
+          <span class="checkbox-box"></span>
+          I agree to the club's code of conduct and meeting attendance policy *
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-block">Create Account &amp; Register</button>
+
+      </form>
+
+      <p class="auth-switch">
+        Already have an account? <a href="login.html">Sign in</a>
+      </p>
+
+    </div>
+  </main>
+
+</body>
+</html>

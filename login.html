@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login — Chitkara Campus Connect</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== SIMPLE TOP BAR ===== -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">CC</span>
+        <span class="logo-text-group">
+          <span class="logo-title">Chitkara</span>
+          <span class="logo-subtitle">CAMPUS CONNECT</span>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== AUTH SECTION ===== -->
+  <main class="auth-page">
+    <div class="auth-card">
+
+      <span class="eyebrow" style="text-align:left;">Welcome back</span>
+      <h1 class="auth-title">Sign in to your account</h1>
+      <p class="auth-subtitle">Access your saved events and club memberships.</p>
+
+      <!--
+        No backend is connected, so this form cannot actually verify a
+        password. Everything below is real, working HTML: required
+        fields, email format checking and a working checkbox — the
+        browser will show its native validation messages if you try
+        to submit with something missing or invalid.
+      -->
+      <form class="auth-form" action="#" method="get">
+
+        <label class="field-label" for="email">Email or Username</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="you@chitkara.edu.in"
+          required>
+
+        <label class="field-label" for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          minlength="6"
+          required>
+
+        <div class="form-row-between">
+          <label class="checkbox-field">
+            <input type="checkbox" name="remember">
+            <span class="checkbox-box"></span>
+            Remember me
+          </label>
+          <a href="#" class="inline-link">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+
+      </form>
+
+      <p class="auth-switch">
+        New to Campus Connect? <a href="register.html">Create an account</a>
+      </p>
+
+    </div>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chitkara Campus Connect</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+
+      <a href="#home" class="logo">
+        <span class="logo-mark">CC</span>
+        <span class="logo-text-group">
+          <span class="logo-title">Chitkara</span>
+          <span class="logo-subtitle">CAMPUS CONNECT</span>
+        </span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#clubs">Clubs</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-outline">Login</a>
+        <a href="register.html" class="btn btn-primary">Sign Up</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+
+      <div class="container hero-inner">
+
+        <div class="hero-content">
+          <span class="hero-badge">
+            <span class="pulse-dot"></span>
+            12 events live this week
+          </span>
+
+          <h1>Your campus,<br>wide awake.</h1>
+
+          <p class="hero-text">
+            One place for every fest, club and workshop at Chitkara University —
+            find your people, claim your seat, and stop missing out.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#events" class="btn btn-primary">Explore Events</a>
+            <a href="#clubs" class="btn btn-ghost">Browse Clubs &nbsp;→</a>
+          </div>
+
+          <div class="hero-stats">
+            <div><strong>50+</strong><span>Clubs</span></div>
+            <div><strong>200+</strong><span>Events</span></div>
+            <div><strong>10K+</strong><span>Students</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="stack-card stack-card-back"></div>
+          <div class="stack-card stack-card-mid"></div>
+
+          <div class="stack-card stack-card-front">
+            <div class="event-preview-tag">Happening now</div>
+            <h3>Chitkara HackFest 2026</h3>
+            <p class="preview-meta">📍 Innovation Lab &nbsp; · &nbsp; 24 Mar</p>
+            <div class="preview-avatars">
+              <span class="avatar a1"></span>
+              <span class="avatar a2"></span>
+              <span class="avatar a3"></span>
+              <span class="avatar-count">+240</span>
+            </div>
+          </div>
+
+          <div class="mini-badge mini-badge-1">🎤 DJ Night · Fri</div>
+          <div class="mini-badge mini-badge-2">🏆 Sports Meet · 05 May</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== EXPLORE EVENTS (CATEGORIES) ===== -->
+    <section class="section" id="events">
+      <div class="container">
+        <span class="eyebrow">Browse by category</span>
+        <h2 class="section-title">Explore Events</h2>
+        <p class="section-subtitle">Every kind of campus energy, sorted for you</p>
+
+        <div class="category-grid">
+          <article class="category-card cat-1">
+            <span class="category-icon">💻</span>
+            <h3>Technical</h3>
+            <p>Hackathons, coding contests and tech talks.</p>
+          </article>
+          <article class="category-card cat-2">
+            <span class="category-icon">🎭</span>
+            <h3>Cultural</h3>
+            <p>Dance, drama and cultural celebrations.</p>
+          </article>
+          <article class="category-card cat-3">
+            <span class="category-icon">🏆</span>
+            <h3>Sports</h3>
+            <p>Tournaments and inter-college sports meets.</p>
+          </article>
+          <article class="category-card cat-4">
+            <span class="category-icon">🛠️</span>
+            <h3>Workshops</h3>
+            <p>Hands-on sessions to build practical skills.</p>
+          </article>
+          <article class="category-card cat-1">
+            <span class="category-icon">🥇</span>
+            <h3>Competitions</h3>
+            <p>Quizzes, case studies and live challenges.</p>
+          </article>
+          <article class="category-card cat-2">
+            <span class="category-icon">🎵</span>
+            <h3>Music</h3>
+            <p>Live performances and open-mic nights.</p>
+          </article>
+          <article class="category-card cat-3">
+            <span class="category-icon">🎨</span>
+            <h3>Arts</h3>
+            <p>Painting, photography and design showcases.</p>
+          </article>
+          <article class="category-card cat-4">
+            <span class="category-icon">🤝</span>
+            <h3>Social</h3>
+            <p>Meetups and community-building activities.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== UPCOMING EVENTS ===== -->
+    <section class="section section-alt">
+      <div class="container">
+        <span class="eyebrow">Don't miss out</span>
+        <h2 class="section-title">What's happening on campus</h2>
+        <p class="section-subtitle">The most-watched events this month</p>
+
+        <div class="event-grid">
+          <article class="event-card">
+            <div class="event-banner banner-tech">
+              <span class="event-date-badge"><strong>24</strong>MAR</span>
+            </div>
+            <div class="event-body">
+              <span class="event-tag tag-tech">Technical</span>
+              <h3>Chitkara HackFest 2026</h3>
+              <p class="event-meta">🕒 10:00 AM &nbsp; · &nbsp; 📍 Innovation Lab</p>
+              <p class="event-desc">A 24-hour hackathon for students to build bold, working tech.</p>
+              <button class="btn btn-outline btn-block">View Event</button>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-banner banner-cultural">
+              <span class="event-date-badge"><strong>12</strong>APR</span>
+            </div>
+            <div class="event-body">
+              <span class="event-tag tag-cultural">Cultural</span>
+              <h3>Cultural Fiesta 2026</h3>
+              <p class="event-meta">🕒 5:00 PM &nbsp; · &nbsp; 📍 Main Auditorium</p>
+              <p class="event-desc">An evening of dance, music and drama by student performers.</p>
+              <button class="btn btn-outline btn-block">View Event</button>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-banner banner-sports">
+              <span class="event-date-badge"><strong>05</strong>MAY</span>
+            </div>
+            <div class="event-body">
+              <span class="event-tag tag-sports">Sports</span>
+              <h3>Inter-College Sports Meet</h3>
+              <p class="event-meta">🕒 8:00 AM &nbsp; · &nbsp; 📍 Sports Ground</p>
+              <p class="event-desc">Compete against other colleges across multiple sports.</p>
+              <button class="btn btn-outline btn-block">View Event</button>
+            </div>
+          </article>
+
+          <article class="event-card">
+            <div class="event-banner banner-workshop">
+              <span class="event-date-badge"><strong>18</strong>MAY</span>
+            </div>
+            <div class="event-body">
+              <span class="event-tag tag-workshop">Workshop</span>
+              <h3>AI &amp; Innovation Workshop</h3>
+              <p class="event-meta">🕒 2:00 PM &nbsp; · &nbsp; 📍 Seminar Hall C</p>
+              <p class="event-desc">Learn the basics of AI and how it's shaping innovation.</p>
+              <button class="btn btn-outline btn-block">View Event</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STUDENT CLUBS ===== -->
+    <section class="section" id="clubs">
+      <div class="container">
+        <span class="eyebrow">50+ communities</span>
+        <h2 class="section-title">Find your community</h2>
+        <p class="section-subtitle">Tap any club to see meeting times, location and how to join</p>
+
+        <!-- ============================================================
+             CSS-ONLY MODAL SYSTEM
+             Each club has a hidden checkbox + a modal box right after it.
+             The card below is a <label> pointing at that checkbox's id.
+             Clicking the label toggles the checkbox, which reveals the
+             modal via the ":checked + .modal-overlay" CSS rule.
+             No JavaScript is used anywhere in this section.
+        ============================================================= -->
+
+        <input type="checkbox" id="modal-chess" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-chess" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-chess" class="modal-close">✕</label>
+            <span class="club-icon">♟️</span>
+            <span class="modal-tag">Strategy &amp; Games</span>
+            <h3>Chess Paradox Club</h3>
+            <p>Weekly puzzles, blitz nights and inter-college chess championships for players of every level.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Wednesdays, 6:00 PM</li>
+              <li>📍 Library Annex</li>
+              <li>👥 85+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-film" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-film" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-film" class="modal-close">✕</label>
+            <span class="club-icon">🎬</span>
+            <span class="modal-tag">Creative Media</span>
+            <h3>Film Making Club</h3>
+            <p>Write, shoot and edit short films — from campus documentaries to festival entries.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Saturdays, 3:00 PM</li>
+              <li>📍 Media Lab</li>
+              <li>👥 60+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-mun" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-mun" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-mun" class="modal-close">✕</label>
+            <span class="club-icon">🏛️</span>
+            <span class="modal-tag">Debate &amp; Diplomacy</span>
+            <h3>MUN Club</h3>
+            <p>Represent nations, debate global issues, and compete at Model UN conferences nationwide.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Tuesdays, 5:00 PM</li>
+              <li>📍 Seminar Hall B</li>
+              <li>👥 110+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-dj" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-dj" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-dj" class="modal-close">✕</label>
+            <span class="club-icon">🎧</span>
+            <span class="modal-tag">Music &amp; Sound</span>
+            <h3>DJ Club</h3>
+            <p>Learn mixing and production, and play sets at the biggest nights on campus.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Thursdays, 7:00 PM</li>
+              <li>📍 Sound Studio</li>
+              <li>👥 40+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-karate" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-karate" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-karate" class="modal-close">✕</label>
+            <span class="club-icon">🥋</span>
+            <span class="modal-tag">Martial Arts</span>
+            <h3>Karate Club</h3>
+            <p>Structured belt training, sparring and self-defence for beginners and black belts alike.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Mon / Wed / Fri, 6:00 AM</li>
+              <li>📍 Sports Complex</li>
+              <li>👥 95+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-research" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-research" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-research" class="modal-close">✕</label>
+            <span class="club-icon">🔬</span>
+            <span class="modal-tag">Research &amp; Innovation</span>
+            <h3>Chitkara Research Club</h3>
+            <p>Work on real research papers, publish with faculty mentors, and present at conferences.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Fridays, 4:00 PM</li>
+              <li>📍 Research Block</li>
+              <li>👥 70+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-canvas" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-canvas" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-canvas" class="modal-close">✕</label>
+            <span class="club-icon">🎨</span>
+            <span class="modal-tag">Visual Arts</span>
+            <h3>Color Canvas Club</h3>
+            <p>Painting, illustration and live-art events — all mediums, all skill levels welcome.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Saturdays, 11:00 AM</li>
+              <li>📍 Art Studio</li>
+              <li>👥 55+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-f1" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-f1" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-f1" class="modal-close">✕</label>
+            <span class="club-icon">🏁</span>
+            <span class="modal-tag">Motorsport</span>
+            <h3>F1 Club</h3>
+            <p>Race strategy discussions, sim-racing tournaments and a shared love for the sport.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Sundays, 4:00 PM</li>
+              <li>📍 Common Room</li>
+              <li>👥 65+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-fin" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-fin" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-fin" class="modal-close">✕</label>
+            <span class="club-icon">📈</span>
+            <span class="modal-tag">Finance &amp; Startups</span>
+            <h3>Finprenuer</h3>
+            <p>Stock market simulations, startup pitches and finance case competitions.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Tuesdays, 6:00 PM</li>
+              <li>📍 B-School Block</li>
+              <li>👥 80+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-animal" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-animal" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-animal" class="modal-close">✕</label>
+            <span class="club-icon">🐾</span>
+            <span class="modal-tag">Community Service</span>
+            <h3>Animal Welfare Club</h3>
+            <p>Campus stray care, adoption drives and awareness campaigns.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Meets Sundays, 9:00 AM</li>
+              <li>📍 Meet at Gate 2</li>
+              <li>👥 45+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <input type="checkbox" id="modal-yoga" class="modal-toggle">
+        <div class="modal-overlay">
+          <label for="modal-yoga" class="modal-backdrop"></label>
+          <div class="modal-box">
+            <label for="modal-yoga" class="modal-close">✕</label>
+            <span class="club-icon">🧘</span>
+            <span class="modal-tag">Wellness</span>
+            <h3>Yoga Club</h3>
+            <p>Morning yoga, breathwork and mindfulness sessions to start your day right.</p>
+            <ul class="modal-facts">
+              <li>🗓️ Daily, 6:30 AM</li>
+              <li>📍 Wellness Lawn</li>
+              <li>👥 100+ active members</li>
+            </ul>
+            <a href="register.html" class="btn btn-primary btn-block">Register Interest</a>
+          </div>
+        </div>
+
+        <!-- The actual visible grid of clickable club cards -->
+        <div class="club-grid">
+          <label for="modal-chess" class="club-card" tabindex="0">
+            <span class="club-icon">♟️</span>
+            <h3>Chess Paradox Club</h3>
+            <p class="club-tag">Strategy &amp; Games</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-film" class="club-card" tabindex="0">
+            <span class="club-icon">🎬</span>
+            <h3>Film Making Club</h3>
+            <p class="club-tag">Creative Media</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-mun" class="club-card" tabindex="0">
+            <span class="club-icon">🏛️</span>
+            <h3>MUN Club</h3>
+            <p class="club-tag">Debate &amp; Diplomacy</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-dj" class="club-card" tabindex="0">
+            <span class="club-icon">🎧</span>
+            <h3>DJ Club</h3>
+            <p class="club-tag">Music &amp; Sound</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-karate" class="club-card" tabindex="0">
+            <span class="club-icon">🥋</span>
+            <h3>Karate Club</h3>
+            <p class="club-tag">Martial Arts</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-research" class="club-card" tabindex="0">
+            <span class="club-icon">🔬</span>
+            <h3>Chitkara Research Club</h3>
+            <p class="club-tag">Research &amp; Innovation</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-canvas" class="club-card" tabindex="0">
+            <span class="club-icon">🎨</span>
+            <h3>Color Canvas Club</h3>
+            <p class="club-tag">Visual Arts</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-f1" class="club-card" tabindex="0">
+            <span class="club-icon">🏁</span>
+            <h3>F1 Club</h3>
+            <p class="club-tag">Motorsport</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-fin" class="club-card" tabindex="0">
+            <span class="club-icon">📈</span>
+            <h3>Finprenuer</h3>
+            <p class="club-tag">Finance &amp; Startups</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-animal" class="club-card" tabindex="0">
+            <span class="club-icon">🐾</span>
+            <h3>Animal Welfare Club</h3>
+            <p class="club-tag">Community Service</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <label for="modal-yoga" class="club-card" tabindex="0">
+            <span class="club-icon">🧘</span>
+            <h3>Yoga Club</h3>
+            <p class="club-tag">Wellness</p>
+            <span class="club-view">View details →</span>
+          </label>
+
+          <a href="register.html" class="club-card club-card-more">
+            <span class="club-icon">✨</span>
+            <h3>+40 more clubs</h3>
+            <p class="club-tag">Running · Reading · Robotics &amp; more</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY PARTICIPATE ===== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <span class="eyebrow">Why bother</span>
+        <h2 class="section-title">More than just college events</h2>
+
+        <div class="benefit-grid">
+          <div class="benefit-item">
+            <span class="benefit-number">01</span>
+            <h3>Build Connections</h3>
+            <p>Meet like-minded students and grow a network that outlasts college.</p>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-number">02</span>
+            <h3>Develop Leadership</h3>
+            <p>Run events, lead teams, and learn what a resume can't teach.</p>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-number">03</span>
+            <h3>Learn New Skills</h3>
+            <p>Pick up skills in workshops that classrooms rarely cover.</p>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-number">04</span>
+            <h3>Create Memories</h3>
+            <p>The stories you'll actually tell later start here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FINAL CTA ===== -->
+    <section class="cta">
+      <div class="cta-glow"></div>
+      <div class="container cta-inner">
+        <h2>Your next campus experience starts here.</h2>
+        <p>Discover events, join clubs, and become part of what makes Chitkara loud.</p>
+        <div class="cta-buttons">
+          <a href="#events" class="btn btn-primary">Explore Events</a>
+          <a href="register.html" class="btn btn-outline btn-light">Join the Community</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div class="footer-col footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-mark">CC</span>
+          <span class="logo-text-group">
+            <span class="logo-title" style="color:#fff;">Chitkara</span>
+            <span class="logo-subtitle">CAMPUS CONNECT</span>
+          </span>
+        </a>
+        <p>A student-built event and club portal for Chitkara University — built to help every student find their scene.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#clubs">Clubs</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Account</h4>
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register for a Club</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>University</h4>
+        <ul>
+          <li><a href="#">Chitkara University</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Campus Life</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="footer-bottom">© 2026 Chitkara Campus Connect — University Project. Not an official Chitkara University product.</p>
+  </footer>
+
+</body>
+</html>
