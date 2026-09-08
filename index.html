@@ -12,9 +12,24 @@
 </head>
 <body>
 
-  <!-- ===== NAVBAR ===== -->
+  <div id="preloader">
+    <div class="preloader-logo">
+      <span class="logo-mark">CC</span>
+      <span class="logo-text-group">
+        <span class="logo-title">Chitkara</span>
+        <span class="logo-subtitle">CAMPUS CONNECT</span>
+      </span>
+    </div>
+    <div class="preloader-bar-track">
+      <div class="preloader-bar-fill"></div>
+    </div>
+    <span class="preloader-text">Loading campus connect…</span>
+  </div>
+
   <header class="navbar">
     <div class="container navbar-inner">
+
+      <input type="checkbox" id="menuCheck" class="menu-check">
 
       <a href="#home" class="logo">
         <span class="logo-mark">CC</span>
@@ -29,6 +44,8 @@
         <a href="#events">Events</a>
         <a href="#clubs">Clubs</a>
         <a href="#about">About</a>
+        
+        <a href="login.html" class="nav-login-mobile">Login</a>
       </nav>
 
       <div class="nav-actions">
@@ -36,12 +53,15 @@
         <a href="register.html" class="btn btn-primary">Sign Up</a>
       </div>
 
+      <label for="menuCheck" class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
     </div>
   </header>
 
   <main>
 
-    <!-- ===== HERO SECTION ===== -->
     <section class="hero" id="home">
       <div class="hero-glow glow-1"></div>
       <div class="hero-glow glow-2"></div>
@@ -63,7 +83,7 @@
 
           <div class="hero-buttons">
             <a href="#events" class="btn btn-primary">Explore Events</a>
-            <a href="#clubs" class="btn btn-ghost">Browse Clubs &nbsp;→</a>
+            <a href="#clubs" class="btn btn-ghost">Browse Clubs →</a>
           </div>
 
           <div class="hero-stats">
@@ -80,7 +100,7 @@
           <div class="stack-card stack-card-front">
             <div class="event-preview-tag">Happening now</div>
             <h3>Chitkara HackFest 2026</h3>
-            <p class="preview-meta">📍 Innovation Lab &nbsp; · &nbsp; 24 Mar</p>
+            <p class="preview-meta">📍 Innovation Lab · 24 Mar</p>
             <div class="preview-avatars">
               <span class="avatar a1"></span>
               <span class="avatar a2"></span>
@@ -163,7 +183,7 @@
             <div class="event-body">
               <span class="event-tag tag-tech">Technical</span>
               <h3>Chitkara HackFest 2026</h3>
-              <p class="event-meta">🕒 10:00 AM &nbsp; · &nbsp; 📍 Innovation Lab</p>
+              <p class="event-meta">🕒 10:00 AM · 📍 Innovation Lab</p>
               <p class="event-desc">A 24-hour hackathon for students to build bold, working tech.</p>
               <button class="btn btn-outline btn-block">View Event</button>
             </div>
@@ -176,7 +196,7 @@
             <div class="event-body">
               <span class="event-tag tag-cultural">Cultural</span>
               <h3>Cultural Fiesta 2026</h3>
-              <p class="event-meta">🕒 5:00 PM &nbsp; · &nbsp; 📍 Main Auditorium</p>
+              <p class="event-meta">🕒 5:00 PM · 📍 Main Auditorium</p>
               <p class="event-desc">An evening of dance, music and drama by student performers.</p>
               <button class="btn btn-outline btn-block">View Event</button>
             </div>
@@ -189,7 +209,7 @@
             <div class="event-body">
               <span class="event-tag tag-sports">Sports</span>
               <h3>Inter-College Sports Meet</h3>
-              <p class="event-meta">🕒 8:00 AM &nbsp; · &nbsp; 📍 Sports Ground</p>
+              <p class="event-meta">🕒 8:00 AM · 📍 Sports Ground</p>
               <p class="event-desc">Compete against other colleges across multiple sports.</p>
               <button class="btn btn-outline btn-block">View Event</button>
             </div>
@@ -202,7 +222,7 @@
             <div class="event-body">
               <span class="event-tag tag-workshop">Workshop</span>
               <h3>AI &amp; Innovation Workshop</h3>
-              <p class="event-meta">🕒 2:00 PM &nbsp; · &nbsp; 📍 Seminar Hall C</p>
+              <p class="event-meta">🕒 2:00 PM · 📍 Seminar Hall C</p>
               <p class="event-desc">Learn the basics of AI and how it's shaping innovation.</p>
               <button class="btn btn-outline btn-block">View Event</button>
             </div>
@@ -218,14 +238,6 @@
         <h2 class="section-title">Find your community</h2>
         <p class="section-subtitle">Tap any club to see meeting times, location and how to join</p>
 
-        <!-- ============================================================
-             CSS-ONLY MODAL SYSTEM
-             Each club has a hidden checkbox + a modal box right after it.
-             The card below is a <label> pointing at that checkbox's id.
-             Clicking the label toggles the checkbox, which reveals the
-             modal via the ":checked + .modal-overlay" CSS rule.
-             No JavaScript is used anywhere in this section.
-        ============================================================= -->
 
         <input type="checkbox" id="modal-chess" class="modal-toggle">
         <div class="modal-overlay">
@@ -425,7 +437,7 @@
           </div>
         </div>
 
-        <!-- The actual visible grid of clickable club cards -->
+        <!-- The visible grid of clickable club cards -->
         <div class="club-grid">
           <label for="modal-chess" class="club-card" tabindex="0">
             <span class="club-icon">♟️</span>
@@ -567,7 +579,7 @@
         <a href="#home" class="logo">
           <span class="logo-mark">CC</span>
           <span class="logo-text-group">
-            <span class="logo-title" style="color:#fff;">Chitkara</span>
+            <span class="logo-title">Chitkara</span>
             <span class="logo-subtitle">CAMPUS CONNECT</span>
           </span>
         </a>
